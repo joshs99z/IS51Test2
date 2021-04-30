@@ -9,3 +9,36 @@ of count by 24 and multiply the answer with 100 and the result will be the perce
 
 
 """
+"""
+main():
+Set dictionary = open(infile)
+calculate_percentage_above_average(percentage,dictionary)
+
+open(infile):
+read in Final.txt
+create list = each line from file
+close the file
+create a dictionary of the list 
+return the dictionary
+
+calculate_percentage_above_average(percentage,dictionary):
+percentage = percentage of grades above average.
+number = for each of the grade in the percentage
+M = the total of grade above average divide by total grades for each grade,
+if grade < 83.25:
+    the return 
+otherwise if grade > 83.25,
+then num=num+1
+return num
+otherwise if grade = 83.25
+then return.
+if (num=0)
+ then return num
+otherwise if (num>0)
+M = num / 24
+ percentage = M * 100
+return percentage
+
+
+"""
+
